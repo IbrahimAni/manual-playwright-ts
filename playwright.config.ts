@@ -1,11 +1,14 @@
 import { defineConfig, devices } from '@playwright/test';
+import path from 'path';
 
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
  */
-// import dotenv from 'dotenv';
-// dotenv.config({ path: path.resolve(__dirname, '.env') });
+import dotenv from 'dotenv';
+dotenv.config({ path: path.resolve(__dirname, 'src/config/.env') });
+
+export const MANUAL_UK = path.resolve(__dirname, 'playwright/.auth/MANUAL_UK.json');
 
 /**
  * See https://playwright.dev/docs/test-configuration.
@@ -25,7 +28,12 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
-    // baseURL: 'http://127.0.0.1:3000',
+    baseURL: 'https://www.manual.co',
+
+    extraHTTPHeaders: {
+
+    },
+    testIdAttribute: 'data-qa',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
@@ -34,19 +42,42 @@ export default defineConfig({
   /* Configure projects for major browsers */
   projects: [
     {
-      name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      name: "setup",
+      testMatch: '**/*setup.ts',
     },
-
     {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
+      name: "manual_uk",
+      dependencies: ["setup"],
+      testDir: './src/tests/manual_uk',
+      // testIgnore: "**/Login_DDT.spec.ts",
+      use: {
+        storageState: MANUAL_UK,
+        ...devices['Desktop Chrome'],
+      }
     },
-
     {
-      name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
+      name: "manual_uk_mobile",
+      dependencies: ["setup"],
+      testDir: './src/tests/manual_uk_mobile',
+      use: {
+        storageState: MANUAL_UK,
+        ...devices['iPhone 14'],
+      }
     },
+    // {
+    //   name: 'chromium',
+    //   use: { ...devices['Desktop Chrome'] },
+    // },
+
+    // {
+    //   name: 'firefox',
+    //   use: { ...devices['Desktop Firefox'] },
+    // },
+
+    // {
+    //   name: 'webkit',
+    //   use: { ...devices['Desktop Safari'] },
+    // },
 
     /* Test against mobile viewports. */
     // {
