@@ -1,5 +1,5 @@
-import { test } from "../../../fixtures/base";
-import login_dtt from "../../../data/login_ddt.json"
+import { test } from "../../../../fixtures/base";
+import login_dtt from "../../../../data/login_ddt.json"
 
 test.describe('Login DDT Test', () => {
     for (let i = 0; i < login_dtt.length; i++) {

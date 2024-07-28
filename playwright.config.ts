@@ -47,11 +47,17 @@ export default defineConfig({
     },
     {
       name: "manual_uk",
+      testDir: './src/tests/manual_uk/manual_uk_auth',
       dependencies: ["setup"],
-      testDir: './src/tests/manual_uk',
-      // testIgnore: "**/Login_DDT.spec.ts",
       use: {
         storageState: MANUAL_UK,
+        ...devices['Desktop Chrome'],
+      }
+    },
+    {
+      name: "manual_uk_no_auth",
+      testDir: './src/tests/manual_uk/manual_uk_no_auth',
+      use: {
         ...devices['Desktop Chrome'],
       }
     },

@@ -1,0 +1,3050 @@
+{
+    "questionnaire": {
+        "questionnaireId": 50,
+        "eligibleProducts": [
+            "finasteride_oral_minoxidil_oral_biotin",
+            "finasteride_topical_minoxidil_topical_10",
+            "finasteride_oral",
+            "minoxidil_oral",
+            "minoxidil_topical_10",
+            "POWER-SHAMPOO",
+            "bundle_finasteride_oral_minoxidil_topical_10",
+            "bundle_finasteride_oral_minoxidil_oral",
+            "dutasteride_oral"
+        ],
+        "eligibleVariants": [
+            "finasteride_oral_minoxidil_oral_biotin_90caps_3M_SUB",
+            "finasteride_oral_minoxidil_oral_biotin_30caps_1M_SUB",
+            "grandfathered_finasteride_oral_minoxidil_oral_biotin_180caps_6M_SUB",
+            "finasteride_oral_minoxidil_oral_biotin_180caps_6M_SUB",
+            "finasteride_oral_minoxidil_oral_biotin_90caps_LDP_3M_SUB",
+            "finasteride_oral_minoxidil_oral_biotin_180caps_test_6M_SUB",
+            "finasteride_topical_minoxidil_topical_10_1x90ml_3M_SUB",
+            "finasteride_oral_30tabs_1M_SUB",
+            "finasteride_oral_90tabs_3M_SUB",
+            "finasteride_oral_180tabs_6M_SUB",
+            "finasteride_oral_180tabs_test_6M_SUB",
+            "grandfathered_minoxidil_oral_90caps_3M_SUB",
+            "minoxidil_oral_30caps_1M_SUB",
+            "minoxidil_oral_90caps_3M_SUB",
+            "oral_minoxidil_180caps_6M_SUB",
+            "minoxidil_oral_90caps_LDP_3M_SUB",
+            "oral_minoxidil_180caps_test_6M_SUB",
+            "grandfathered_minoxidil_topical_10_1x90ml_3M_SUB",
+            "minoxidil_topical_10_1x90ml_3M_SUB",
+            "minoxidil_topical_10_2x90ml_6M_SUB",
+            "minoxidil_topical_10_2x90ml_test_6M_SUB",
+            "grandfathered_POWERSHAMPOO_ONEOFF",
+            "grandfathered_POWERSHAMPOO_SUB",
+            "grandfathered_POWERSHAMPOO_UPSELL",
+            "grandfathered_POWERSHAMPOO_Q_UPSELL",
+            "POWERSHAMPOO_200_ONEOFF",
+            "POWERSHAMPOO_200_SUB",
+            "POWERSHAMPOO_200_UPSELL",
+            "POWERSHAMPOO_200_Q_UPSELL",
+            "POWERSHAMPOO_200_Q_UPSELL_UNLICENSED",
+            "POWERSHAMPOO_200_6M_UPSELL",
+            "POWERSHAMPOO_200_QUARTERLY",
+            "bundle_finasteride_oral_90tabs_minoxidil_topical_10_1x90ml_3M_SUB",
+            "bundle_finasteride_oral_180tabs_minoxidil_topical_10_2x90ml_6M_SUB_194GBP",
+            "bundle_finasteride_oral_180tabs_minoxidil_topical_10_2x90ml_6M_SUB_199GBP",
+            "bundle_finasteride_oral_30tabs_minoxidil_oral_30caps_1M_SUB",
+            "bundle_finasteride_oral_90tabs_minoxidil_oral_90caps_3M_SUB",
+            "dutasteride_oral_30caps_1M_SUB",
+            "dutasteride_oral_90caps_3M_SUB",
+            "dutasteride_oral_180caps_6M_SUB"
+        ],
+        "isReject": false,
+        "exclusionDetails": [],
+        "title": "Hair Loss Unsure Flow nextJS",
+        "label": "Consultation",
+        "steps": [
+            {
+                "number": 367,
+                "name": "HL Trick 2 ATC step 1",
+                "enabled": true,
+                "questions": [
+                    {
+                        "id": "813",
+                        "question": "What results are you looking for?",
+                        "type": "choice",
+                        "answers": [
+                            {
+                                "value": "Regrow my hair",
+                                "text": "Regrow my hair",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "Prevent further hair loss",
+                                "text": "Prevent further hair loss",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "Regrowth and prevention",
+                                "text": "Regrowth and prevention",
+                                "score": 0,
+                                "nullifying": false
+                            }
+                        ],
+                        "defaultAnswer": "",
+                        "hasAnswered": false,
+                        "required": true,
+                        "tags": [
+                            "hl_hide_for_atc"
+                        ],
+                        "options": [
+                            {
+                                "text": "Regrow my hair",
+                                "value": "Regrow my hair"
+                            },
+                            {
+                                "text": "Prevent further hair loss",
+                                "value": "Prevent further hair loss"
+                            },
+                            {
+                                "text": "Regrowth and prevention",
+                                "value": "Regrowth and prevention"
+                            }
+                        ],
+                        "attributes": [],
+                        "stepIndex": 0
+                    }
+                ]
+            },
+            {
+                "number": 347,
+                "name": "HL Trick 2 ATC step 2",
+                "enabled": true,
+                "questions": [
+                    {
+                        "id": "783",
+                        "question": "How old are you?",
+                        "type": "choice",
+                        "answers": [
+                            {
+                                "value": "<20",
+                                "text": "Under 20",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "20s",
+                                "text": "20s",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "30s",
+                                "text": "30s",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "40s",
+                                "text": "40s",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "50s",
+                                "text": "50s",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "60+",
+                                "text": "60+",
+                                "score": 0,
+                                "nullifying": false
+                            }
+                        ],
+                        "defaultAnswer": "",
+                        "hasAnswered": false,
+                        "required": true,
+                        "tags": [
+                            "hl_hide_for_atc"
+                        ],
+                        "options": [
+                            {
+                                "text": "Under 20",
+                                "value": "<20"
+                            },
+                            {
+                                "text": "20s",
+                                "value": "20s"
+                            },
+                            {
+                                "text": "30s",
+                                "value": "30s"
+                            },
+                            {
+                                "text": "40s",
+                                "value": "40s"
+                            },
+                            {
+                                "text": "50s",
+                                "value": "50s"
+                            },
+                            {
+                                "text": "60+",
+                                "value": "60+"
+                            }
+                        ],
+                        "attributes": [],
+                        "stepIndex": 1
+                    }
+                ]
+            },
+            {
+                "number": 348,
+                "name": "HL Trick 2 ATC step 3",
+                "enabled": true,
+                "questions": [
+                    {
+                        "id": "784",
+                        "question": "How do you expect hair loss treatment to impact your life?",
+                        "type": "choice",
+                        "answers": [
+                            {
+                                "value": "Increase my confidence",
+                                "text": "Increase my confidence",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "Feel less anxious",
+                                "text": "Feel less anxious",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "Improve my mood",
+                                "text": "Improve my mood",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "Better success in relationships",
+                                "text": "Better success in relationships",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "Reduce stress",
+                                "text": "Reduce stress",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "I'm not sure",
+                                "text": "I'm not sure",
+                                "score": 0,
+                                "nullifying": false
+                            }
+                        ],
+                        "defaultAnswer": "",
+                        "hasAnswered": false,
+                        "required": true,
+                        "tags": [
+                            "hl_hide_for_atc"
+                        ],
+                        "options": [
+                            {
+                                "text": "Increase my confidence",
+                                "value": "Increase my confidence"
+                            },
+                            {
+                                "text": "Feel less anxious",
+                                "value": "Feel less anxious"
+                            },
+                            {
+                                "text": "Improve my mood",
+                                "value": "Improve my mood"
+                            },
+                            {
+                                "text": "Better success in relationships",
+                                "value": "Better success in relationships"
+                            },
+                            {
+                                "text": "Reduce stress",
+                                "value": "Reduce stress"
+                            },
+                            {
+                                "text": "I'm not sure",
+                                "value": "I'm not sure"
+                            }
+                        ],
+                        "attributes": [],
+                        "stepIndex": 2
+                    }
+                ]
+            },
+            {
+                "number": 376,
+                "name": "HL - choose product step",
+                "enabled": true,
+                "questions": [
+                    {
+                        "id": "827",
+                        "question": "<p>Which treatment plan \nwould you prefer?</p>",
+                        "note": "Final treatment plans are shared decisions determined with your clinician after this online assessment. Always read the leaflet and treatment plan.",
+                        "type": "productchoicetype",
+                        "defaultAnswer": "",
+                        "hasAnswered": false,
+                        "required": false,
+                        "productVariantIncludeCondition": [
+                            {
+                                "finasteride_only": [
+                                    "finasteride_only"
+                                ]
+                            },
+                            {
+                                "minoxidil_only": [
+                                    "minoxidil_only"
+                                ]
+                            }
+                        ],
+                        "tags": [
+                            "hl_product_choice_carousel",
+                            "hl_hide_for_atc"
+                        ],
+                        "options": [
+                            {
+                                "code": "bundle_finasteride_oral_minoxidil_oral",
+                                "text": "bundle_finasteride_oral_minoxidil_oral",
+                                "value": "bundle_finasteride_oral_minoxidil_oral"
+                            },
+                            {
+                                "code": "finasteride_oral_minoxidil_oral_biotin",
+                                "text": "finasteride_oral_minoxidil_oral_biotin",
+                                "value": "finasteride_oral_minoxidil_oral_biotin"
+                            },
+                            {
+                                "code": "bundle_finasteride_oral_minoxidil_topical_5",
+                                "text": "bundle_finasteride_oral_minoxidil_topical_5",
+                                "value": "bundle_finasteride_oral_minoxidil_topical_5"
+                            },
+                            {
+                                "code": "finasteride_oral",
+                                "text": "finasteride_oral",
+                                "value": "finasteride_oral"
+                            },
+                            {
+                                "code": "minoxidil_topical_5",
+                                "text": "minoxidil_topical_5",
+                                "value": "minoxidil_topical_5"
+                            },
+                            {
+                                "code": "minoxidil_oral",
+                                "text": "minoxidil_oral",
+                                "value": "minoxidil_oral"
+                            },
+                            {
+                                "code": "PLANOLD-2-M-N",
+                                "text": "PLANOLD-2-M-N",
+                                "value": "PLANOLD-2-M-N"
+                            },
+                            {
+                                "code": "PLAN-1-M-N",
+                                "text": "PLAN-1-M-N",
+                                "value": "PLAN-1-M-N"
+                            },
+                            {
+                                "code": "PLAN-7",
+                                "text": "PLAN-7",
+                                "value": "PLAN-7"
+                            }
+                        ],
+                        "attributes": [],
+                        "stepIndex": 3
+                    }
+                ]
+            },
+            {
+                "number": 277,
+                "name": "Hair loss consultation 1",
+                "enabled": true,
+                "animations": [
+                    " "
+                ],
+                "questions": [
+                    {
+                        "id": "650",
+                        "question": "Which image best matches your hair loss?",
+                        "type": "imagechoice",
+                        "answers": [
+                            {
+                                "value": "Temples",
+                                "text": "<img alt=\"Temples\" src=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/temples-hairloss.png\" srcset=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/temples-hairloss%402x.png 2x\" title=\"Temples\"/>",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "Temples & Crown",
+                                "text": "<img alt=\"Temples & Crown\" src=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/templescrown-hairloss.png\" srcset=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/templescrown-hairloss%402x.png 2x\" title=\"Temples & Crown\"/>",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "Moderate",
+                                "text": "<img alt=\"Moderate\" src=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/moderate-hairloss.png\" srcset=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/moderate-hairloss%402x.png 2x\" title=\"Moderate\"/>",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "Extensive",
+                                "text": "<img alt=\"Extensive\" src=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/extensive-hairloss.png\" srcset=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/extensive-hairloss%402x.png 2x\" title=\"Extensive\"/>",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "Patchy",
+                                "text": "<img alt=\"Patchy\" src=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/patchy-hairloss.png\" srcset=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/patchy-hairloss%402x.png 2x\" title=\"Patchy\"/>",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "Complete",
+                                "text": "<img alt=\"Complete\" src=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/complete-hairloss.png\" srcset=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/complete-hairloss%402x.png 2x\" title=\"Complete\"/>",
+                                "score": 0,
+                                "nullifying": false
+                            }
+                        ],
+                        "defaultAnswer": "",
+                        "hasAnswered": false,
+                        "required": true,
+                        "rejectCondition": "\"Patchy\"|||\"Complete\"",
+                        "options": [
+                            {
+                                "text": "<img alt=\"Temples\" src=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/temples-hairloss.png\" srcset=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/temples-hairloss%402x.png 2x\" title=\"Temples\"/>",
+                                "value": "Temples"
+                            },
+                            {
+                                "text": "<img alt=\"Temples & Crown\" src=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/templescrown-hairloss.png\" srcset=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/templescrown-hairloss%402x.png 2x\" title=\"Temples & Crown\"/>",
+                                "value": "Temples & Crown"
+                            },
+                            {
+                                "text": "<img alt=\"Moderate\" src=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/moderate-hairloss.png\" srcset=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/moderate-hairloss%402x.png 2x\" title=\"Moderate\"/>",
+                                "value": "Moderate"
+                            },
+                            {
+                                "text": "<img alt=\"Extensive\" src=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/extensive-hairloss.png\" srcset=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/extensive-hairloss%402x.png 2x\" title=\"Extensive\"/>",
+                                "value": "Extensive"
+                            },
+                            {
+                                "text": "<img alt=\"Patchy\" src=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/patchy-hairloss.png\" srcset=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/patchy-hairloss%402x.png 2x\" title=\"Patchy\"/>",
+                                "value": "Patchy"
+                            },
+                            {
+                                "text": "<img alt=\"Complete\" src=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/complete-hairloss.png\" srcset=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/complete-hairloss%402x.png 2x\" title=\"Complete\"/>",
+                                "value": "Complete"
+                            }
+                        ],
+                        "attributes": [],
+                        "stepIndex": 4
+                    }
+                ]
+            },
+            {
+                "number": 278,
+                "name": "Hair loss consultation 2",
+                "enabled": true,
+                "questions": [
+                    {
+                        "id": "651",
+                        "question": "Do you have any scalp problems?",
+                        "type": "choice",
+                        "answers": [
+                            {
+                                "value": "true",
+                                "text": "Yes",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "false",
+                                "text": "No",
+                                "score": 0,
+                                "nullifying": false
+                            }
+                        ],
+                        "defaultAnswer": "",
+                        "hasAnswered": false,
+                        "required": true,
+                        "idealAnswer": "false",
+                        "options": [
+                            {
+                                "text": "Yes",
+                                "value": "true"
+                            },
+                            {
+                                "text": "No",
+                                "value": "false"
+                            }
+                        ],
+                        "attributes": [],
+                        "stepIndex": 5
+                    },
+                    {
+                        "id": "652",
+                        "question": "Please be more specific.",
+                        "type": "choice",
+                        "parentQuestion": "651",
+                        "parentQuestionCondition": "true",
+                        "answers": [
+                            {
+                                "value": "soreness/redness",
+                                "text": "Sudden Soreness/Redness",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "dandruff",
+                                "text": "Dandruff",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "psoriasis",
+                                "text": "Psoriasis",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "sunburn",
+                                "text": "Sunburn",
+                                "score": 0,
+                                "nullifying": false
+                            }
+                        ],
+                        "defaultAnswer": "",
+                        "hasAnswered": false,
+                        "required": true,
+                        "productExcludeCondition": [
+                            {
+                                "dandruff": [
+                                    "minoxidil_topical_5",
+                                    "bundle_finasteride_oral_minoxidil_topical_5"
+                                ],
+                                "psoriasis": [
+                                    "minoxidil_topical_5",
+                                    "minoxidil_topical_10",
+                                    "minoxidil_topical_10",
+                                    "bundle_finasteride_oral_minoxidil_topical_5",
+                                    "bundle_finasteride_oral_minoxidil_topical_10",
+                                    "finasteride_topical_minoxidil_topical_10"
+                                ],
+                                "sunburn": [
+                                    "minoxidil_topical_5",
+                                    "minoxidil_topical_10",
+                                    "minoxidil_topical_10",
+                                    "bundle_finasteride_oral_minoxidil_topical_5",
+                                    "bundle_finasteride_oral_minoxidil_topical_10",
+                                    "finasteride_topical_minoxidil_topical_10"
+                                ]
+                            }
+                        ],
+                        "options": [
+                            {
+                                "text": "Sudden Soreness/Redness",
+                                "value": "soreness/redness"
+                            },
+                            {
+                                "text": "Dandruff",
+                                "value": "dandruff"
+                            },
+                            {
+                                "text": "Psoriasis",
+                                "value": "psoriasis"
+                            },
+                            {
+                                "text": "Sunburn",
+                                "value": "sunburn"
+                            }
+                        ],
+                        "attributes": [],
+                        "stepIndex": 5
+                    },
+                    {
+                        "id": "653",
+                        "question": "Have you seen a clinician about the soreness/redness in order to get a diagnosis and/or received treatment?",
+                        "type": "choice",
+                        "parentQuestion": "652",
+                        "parentQuestionCondition": "soreness/redness",
+                        "answers": [
+                            {
+                                "value": "true",
+                                "text": "Yes",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "false",
+                                "text": "No",
+                                "score": 0,
+                                "nullifying": false
+                            }
+                        ],
+                        "defaultAnswer": "",
+                        "hasAnswered": false,
+                        "required": true,
+                        "rejectReasoning": "We cannot recommend you prescription hair loss treatment as it may not be suitable for you. We would advise seeing your GP for a face to face consultation, to further assess the nature of this soreness/redness on your scalp.",
+                        "productExcludeCondition": [
+                            {
+                                "true": [
+                                    "minoxidil_topical_5",
+                                    "minoxidil_topical_10",
+                                    "minoxidil_topical_10",
+                                    "bundle_finasteride_oral_minoxidil_topical_5",
+                                    "bundle_finasteride_oral_minoxidil_topical_10",
+                                    "finasteride_topical_minoxidil_topical_10"
+                                ]
+                            }
+                        ],
+                        "options": [
+                            {
+                                "text": "Yes",
+                                "value": "true"
+                            },
+                            {
+                                "text": "No",
+                                "value": "false"
+                            }
+                        ],
+                        "attributes": [],
+                        "stepIndex": 5
+                    }
+                ]
+            },
+            {
+                "number": 279,
+                "name": "Hair loss consultation 3",
+                "enabled": true,
+                "questions": [
+                    {
+                        "id": "654",
+                        "question": "Have you used Minoxidil, Regaine, Finasteride, or Propecia for at least 12 months consistently?",
+                        "type": "choice",
+                        "answers": [
+                            {
+                                "value": "true",
+                                "text": "Yes",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "false",
+                                "text": "No",
+                                "score": 0,
+                                "nullifying": false
+                            }
+                        ],
+                        "defaultAnswer": "",
+                        "hasAnswered": false,
+                        "required": true,
+                        "idealAnswer": "false",
+                        "options": [
+                            {
+                                "text": "Yes",
+                                "value": "true"
+                            },
+                            {
+                                "text": "No",
+                                "value": "false"
+                            }
+                        ],
+                        "attributes": [],
+                        "stepIndex": 6
+                    },
+                    {
+                        "id": "655",
+                        "question": "Was Minoxidil or Regaine effective?",
+                        "type": "choice",
+                        "parentQuestion": "654",
+                        "parentQuestionCondition": "true",
+                        "answers": [
+                            {
+                                "value": "true",
+                                "text": "Yes",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "false",
+                                "text": "No",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "na",
+                                "text": "I have not used",
+                                "score": 0,
+                                "nullifying": false
+                            }
+                        ],
+                        "defaultAnswer": "",
+                        "hasAnswered": false,
+                        "required": true,
+                        "productExcludeCondition": [
+                            {
+                                "false": [
+                                    "minoxidil_topical_5",
+                                    "bundle_finasteride_oral_minoxidil_topical_5"
+                                ]
+                            }
+                        ],
+                        "options": [
+                            {
+                                "text": "Yes",
+                                "value": "true"
+                            },
+                            {
+                                "text": "No",
+                                "value": "false"
+                            },
+                            {
+                                "text": "I have not used",
+                                "value": "na"
+                            }
+                        ],
+                        "attributes": [],
+                        "stepIndex": 6
+                    },
+                    {
+                        "id": "656",
+                        "question": "Was Finasteride or Propecia effective?",
+                        "type": "choice",
+                        "parentQuestion": "654",
+                        "parentQuestionCondition": "true",
+                        "answers": [
+                            {
+                                "value": "true",
+                                "text": "Yes",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "false",
+                                "text": "No",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "na",
+                                "text": "I have not used",
+                                "score": 0,
+                                "nullifying": false
+                            }
+                        ],
+                        "defaultAnswer": "",
+                        "hasAnswered": false,
+                        "required": true,
+                        "productExcludeCondition": [
+                            {
+                                "false": [
+                                    "finasteride_oral"
+                                ]
+                            }
+                        ],
+                        "options": [
+                            {
+                                "text": "Yes",
+                                "value": "true"
+                            },
+                            {
+                                "text": "No",
+                                "value": "false"
+                            },
+                            {
+                                "text": "I have not used",
+                                "value": "na"
+                            }
+                        ],
+                        "attributes": [],
+                        "stepIndex": 6
+                    }
+                ]
+            },
+            {
+                "number": 280,
+                "name": "Hair loss consultation 4",
+                "enabled": true,
+                "questions": [
+                    {
+                        "id": "657",
+                        "question": "Are any of the following true?\n\n<ul>\n<li>I have previously been diagnosed with breast cancer, prostate cancer, or I am currently undergoing PSA (prostate monitoring).</li>\n<li>I have uncontrolled low or high blood pressure.</li>\n<li>I am experiencing, or have previously experienced, depression, anxiety or panic disorders.</li>\n</ul>",
+                        "type": "choice",
+                        "answers": [
+                            {
+                                "value": "true",
+                                "text": "Yes",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "false",
+                                "text": "No",
+                                "score": 0,
+                                "nullifying": false
+                            }
+                        ],
+                        "defaultAnswer": "",
+                        "hasAnswered": false,
+                        "required": true,
+                        "idealAnswer": "false",
+                        "options": [
+                            {
+                                "text": "Yes",
+                                "value": "true"
+                            },
+                            {
+                                "text": "No",
+                                "value": "false"
+                            }
+                        ],
+                        "attributes": [],
+                        "stepIndex": 7
+                    },
+                    {
+                        "id": "658",
+                        "question": "Have you previously been diagnosed with breast cancer, prostate cancer or are you currently undergoing PSA (prostate monitoring)?",
+                        "type": "choice",
+                        "parentQuestion": "657",
+                        "parentQuestionCondition": "true",
+                        "answers": [
+                            {
+                                "value": "true",
+                                "text": "Yes",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "false",
+                                "text": "No",
+                                "score": 0,
+                                "nullifying": false
+                            }
+                        ],
+                        "defaultAnswer": "",
+                        "hasAnswered": false,
+                        "required": true,
+                        "idealAnswer": "false",
+                        "productExcludeCondition": [
+                            {
+                                "true": [
+                                    "finasteride_oral",
+                                    "bundle_finasteride_oral_minoxidil_topical_5",
+                                    "bundle_finasteride_oral_minoxidil_topical_10",
+                                    "finasteride_topical_minoxidil_topical_10",
+                                    "finasteride_oral_minoxidil_oral_biotin"
+                                ]
+                            }
+                        ],
+                        "options": [
+                            {
+                                "text": "Yes",
+                                "value": "true"
+                            },
+                            {
+                                "text": "No",
+                                "value": "false"
+                            }
+                        ],
+                        "attributes": [],
+                        "stepIndex": 7
+                    },
+                    {
+                        "id": "659",
+                        "question": "Do you have uncontrolled low or high blood pressure?",
+                        "type": "choice",
+                        "parentQuestion": "657",
+                        "parentQuestionCondition": "true",
+                        "answers": [
+                            {
+                                "value": "true",
+                                "text": "Yes",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "false",
+                                "text": "No",
+                                "score": 0,
+                                "nullifying": false
+                            }
+                        ],
+                        "defaultAnswer": "",
+                        "hasAnswered": false,
+                        "required": true,
+                        "idealAnswer": "false",
+                        "productExcludeCondition": [
+                            {
+                                "true": [
+                                    "minoxidil_topical_5",
+                                    "minoxidil_oral",
+                                    "bundle_finasteride_oral_minoxidil_topical_5",
+                                    "bundle_finasteride_oral_minoxidil_topical_10",
+                                    "finasteride_topical_minoxidil_topical_10",
+                                    "finasteride_oral_minoxidil_oral_biotin"
+                                ]
+                            }
+                        ],
+                        "options": [
+                            {
+                                "text": "Yes",
+                                "value": "true"
+                            },
+                            {
+                                "text": "No",
+                                "value": "false"
+                            }
+                        ],
+                        "attributes": [],
+                        "stepIndex": 7
+                    },
+                    {
+                        "id": "660",
+                        "question": "Are you experiencing, or have you ever experienced, depression, anxiety or panic disorders?",
+                        "type": "choice",
+                        "parentQuestion": "657",
+                        "parentQuestionCondition": "true",
+                        "answers": [
+                            {
+                                "value": "true",
+                                "text": "Yes",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "false",
+                                "text": "No",
+                                "score": 0,
+                                "nullifying": false
+                            }
+                        ],
+                        "defaultAnswer": "",
+                        "hasAnswered": false,
+                        "required": true,
+                        "options": [
+                            {
+                                "text": "Yes",
+                                "value": "true"
+                            },
+                            {
+                                "text": "No",
+                                "value": "false"
+                            }
+                        ],
+                        "attributes": [],
+                        "stepIndex": 7
+                    },
+                    {
+                        "id": "661",
+                        "question": "There are occasional reports of depression and even suicidal thoughts with Finasteride (Propecia). If you are currently stable, and happy to stop this treatment immediately and consult a doctor if this occurs then click to accept you have understood the above.",
+                        "type": "choice",
+                        "parentQuestion": "660",
+                        "parentQuestionCondition": "true",
+                        "answers": [
+                            {
+                                "value": "true",
+                                "text": "I understand",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "false",
+                                "text": "I am not currently stable or don't want to proceed with Finasteride",
+                                "score": 0,
+                                "nullifying": false
+                            }
+                        ],
+                        "defaultAnswer": "",
+                        "hasAnswered": false,
+                        "required": true,
+                        "idealAnswer": "true",
+                        "productExcludeCondition": [
+                            {
+                                "false": [
+                                    "finasteride_oral",
+                                    "bundle_finasteride_oral_minoxidil_topical_5",
+                                    "bundle_finasteride_oral_minoxidil_topical_10",
+                                    "finasteride_topical_minoxidil_topical_10",
+                                    "finasteride_oral_minoxidil_oral_biotin"
+                                ]
+                            }
+                        ],
+                        "options": [
+                            {
+                                "text": "I understand",
+                                "value": "true"
+                            },
+                            {
+                                "text": "I am not currently stable or don't want to proceed with Finasteride",
+                                "value": "false"
+                            }
+                        ],
+                        "attributes": [],
+                        "stepIndex": 7
+                    }
+                ]
+            },
+            {
+                "number": 302,
+                "name": "UK - hair loss - add to cart - unlicensed - step 6",
+                "enabled": true,
+                "questions": [
+                    {
+                        "id": "706",
+                        "question": "Do you have any of the following problems?\n\n<ul>\n<li>Significant or Chronic Kidney Disease</li>\n<li>Phaeochromocytoma</li>\n<li>Heart attack, stroke, or mini-stroke within the last 6 months</li>\n<li>Chest pain symptoms or any heart rhythm issues</li>\n<li>Heart valve problems</li>\n<li>Disease of the heart muscles</li>\n<li>Get breathless or have chest pain with light exertion, such as walking briskly for 20 minutes or climbing two flights of stairs</li>\n</ul>",
+                        "type": "choice",
+                        "answers": [
+                            {
+                                "value": "true",
+                                "text": "Yes",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "false",
+                                "text": "No",
+                                "score": 0,
+                                "nullifying": false
+                            }
+                        ],
+                        "defaultAnswer": "",
+                        "hasAnswered": false,
+                        "required": true,
+                        "idealAnswer": "false",
+                        "productExcludeCondition": [
+                            {
+                                "true": [
+                                    "minoxidil_oral",
+                                    "finasteride_oral_minoxidil_oral_biotin",
+                                    "bundle_finasteride_oral_minoxidil_oral",
+                                    "bundle_finasteride_oral_minoxidil_topical_10",
+                                    "bundle_finasteride_oral_minoxidil_topical_5",
+                                    "finasteride_topical_minoxidil_topical_10",
+                                    "minoxidil_topical_10"
+                                ]
+                            }
+                        ],
+                        "options": [
+                            {
+                                "text": "Yes",
+                                "value": "true"
+                            },
+                            {
+                                "text": "No",
+                                "value": "false"
+                            }
+                        ],
+                        "attributes": [],
+                        "stepIndex": 8
+                    }
+                ]
+            },
+            {
+                "number": 303,
+                "name": "UK - hair loss - add to cart - unlicensed - step 7",
+                "enabled": true,
+                "questions": [
+                    {
+                        "id": "707",
+                        "question": "Do you have any allergies (e.g. Lactose, Minoxidil, Finasteride or Dutasteride)?",
+                        "type": "choice",
+                        "answers": [
+                            {
+                                "value": "true",
+                                "text": "Yes",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "false",
+                                "text": "No",
+                                "score": 0,
+                                "nullifying": false
+                            }
+                        ],
+                        "defaultAnswer": "",
+                        "hasAnswered": false,
+                        "required": true,
+                        "idealAnswer": "false",
+                        "options": [
+                            {
+                                "text": "Yes",
+                                "value": "true"
+                            },
+                            {
+                                "text": "No",
+                                "value": "false"
+                            }
+                        ],
+                        "attributes": [],
+                        "stepIndex": 9
+                    },
+                    {
+                        "id": "708",
+                        "question": "Are you allergic to any of the following?",
+                        "note": "(Select all that apply)",
+                        "type": "multichoice",
+                        "parentQuestion": "707",
+                        "parentQuestionCondition": "true",
+                        "answers": [
+                            {
+                                "value": "lactose",
+                                "text": "Lactose",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "minoxidil",
+                                "text": "Minoxidil",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "finasteride",
+                                "text": "Finasteride",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "dutasteride",
+                                "text": "Dutasteride",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "other",
+                                "text": "Something else",
+                                "score": 0,
+                                "nullifying": false
+                            }
+                        ],
+                        "defaultAnswer": [],
+                        "hasAnswered": false,
+                        "required": true,
+                        "productExcludeCondition": [
+                            {
+                                "finasteride": [
+                                    "finasteride_oral",
+                                    "bundle_finasteride_oral_minoxidil_topical_5",
+                                    "bundle_finasteride_oral_minoxidil_topical_10",
+                                    "finasteride_topical_minoxidil_topical_10",
+                                    "finasteride_oral_minoxidil_oral_biotin",
+                                    "bundle_finasteride_oral_minoxidil_oral"
+                                ],
+                                "minoxidil": [
+                                    "minoxidil_topical_5",
+                                    "minoxidil_topical_10",
+                                    "minoxidil_oral",
+                                    "bundle_finasteride_oral_minoxidil_topical_5",
+                                    "bundle_finasteride_oral_minoxidil_topical_10",
+                                    "finasteride_topical_minoxidil_topical_10",
+                                    "finasteride_oral_minoxidil_oral_biotin",
+                                    "bundle_finasteride_oral_minoxidil_oral"
+                                ],
+                                "dutasteride": [
+                                    "dutasteride_oral",
+                                    "dutasteride_oral_minoxidil_oral_biotin"
+                                ]
+                            }
+                        ],
+                        "options": [
+                            {
+                                "text": "Lactose",
+                                "value": "lactose"
+                            },
+                            {
+                                "text": "Minoxidil",
+                                "value": "minoxidil"
+                            },
+                            {
+                                "text": "Finasteride",
+                                "value": "finasteride"
+                            },
+                            {
+                                "text": "Dutasteride",
+                                "value": "dutasteride"
+                            },
+                            {
+                                "text": "Something else",
+                                "value": "other"
+                            }
+                        ],
+                        "attributes": [],
+                        "stepIndex": 9
+                    },
+                    {
+                        "id": "709",
+                        "question": "If we recommend a tablet medication in your plan it can contain very small amounts of lactose. If you have previously taken most tablet formulations without causing any symptoms then it is unlikely that you will get undesirable effects from the lactose within our tablets.",
+                        "type": "choice",
+                        "parentQuestion": "708",
+                        "parentQuestionCondition": "lactose",
+                        "answers": [
+                            {
+                                "value": "true",
+                                "text": "I am happy to proceed to being assessed for prescription",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "false",
+                                "text": "I can't tolerate even small amounts of lactose",
+                                "score": 0,
+                                "nullifying": false
+                            }
+                        ],
+                        "defaultAnswer": "",
+                        "hasAnswered": false,
+                        "required": true,
+                        "idealAnswer": "true",
+                        "productExcludeCondition": [
+                            {
+                                "false": [
+                                    "finasteride_oral",
+                                    "bundle_finasteride_oral_minoxidil_topical_5",
+                                    "bundle_finasteride_oral_minoxidil_topical_10",
+                                    "finasteride_topical_minoxidil_topical_10",
+                                    "bundle_finasteride_oral_minoxidil_oral"
+                                ]
+                            }
+                        ],
+                        "options": [
+                            {
+                                "text": "I am happy to proceed to being assessed for prescription",
+                                "value": "true"
+                            },
+                            {
+                                "text": "I can't tolerate even small amounts of lactose",
+                                "value": "false"
+                            }
+                        ],
+                        "attributes": [],
+                        "stepIndex": 9
+                    }
+                ]
+            },
+            {
+                "number": 304,
+                "name": "UK - hair loss - add to cart - unlicensed - step 8",
+                "enabled": true,
+                "questions": [
+                    {
+                        "id": "711",
+                        "question": "Is your scalp susceptible to dryness, irritation or dandruff?",
+                        "type": "choice",
+                        "answers": [
+                            {
+                                "value": "false",
+                                "text": "No - I don’t want any scalp gentle options",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "true",
+                                "text": "Yes - I want more scalp friendly plans",
+                                "score": 0,
+                                "nullifying": false
+                            }
+                        ],
+                        "defaultAnswer": "",
+                        "hasAnswered": false,
+                        "required": true,
+                        "productExcludeCondition": [
+                            {
+                                "true": [
+                                    "minoxidil_topical_5",
+                                    "bundle_finasteride_oral_minoxidil_topical_5"
+                                ]
+                            }
+                        ],
+                        "options": [
+                            {
+                                "text": "No - I don’t want any scalp gentle options",
+                                "value": "false"
+                            },
+                            {
+                                "text": "Yes - I want more scalp friendly plans",
+                                "value": "true"
+                            }
+                        ],
+                        "attributes": [],
+                        "stepIndex": 10
+                    }
+                ]
+            },
+            {
+                "number": 305,
+                "name": "UK - hair loss - add to cart - unlicensed - step 9",
+                "enabled": true,
+                "questions": [
+                    {
+                        "id": "712",
+                        "question": "Which of the following would you need to be consistent with treatment?",
+                        "note": "(Application refers to how often you need to use the treatment)",
+                        "type": "choice",
+                        "answers": [
+                            {
+                                "value": "twice daily",
+                                "text": "Twice-daily application",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "once daily",
+                                "text": "Once-daily application",
+                                "score": 0,
+                                "nullifying": false
+                            }
+                        ],
+                        "defaultAnswer": "",
+                        "hasAnswered": false,
+                        "required": true,
+                        "productExcludeCondition": [
+                            {
+                                "once daily": [
+                                    "minoxidil_topical_5",
+                                    "bundle_finasteride_oral_minoxidil_topical_5"
+                                ]
+                            }
+                        ],
+                        "options": [
+                            {
+                                "text": "Twice-daily application",
+                                "value": "twice daily"
+                            },
+                            {
+                                "text": "Once-daily application",
+                                "value": "once daily"
+                            }
+                        ],
+                        "attributes": [],
+                        "stepIndex": 11
+                    }
+                ]
+            },
+            {
+                "number": 316,
+                "name": "Hair loss consultation 11 (animation)",
+                "enabled": true,
+                "animations": [],
+                "questions": [
+                    {
+                        "id": "728",
+                        "question": "Which are important to you?",
+                        "note": "Select all that apply",
+                        "type": "multichoice",
+                        "answers": [
+                            {
+                                "value": "maximise results",
+                                "text": "Maximising my results",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "side effects",
+                                "text": "Minimising side-effect risks",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "hair texture",
+                                "text": "Better hair texture",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "novel treatments",
+                                "text": "Novel treatments",
+                                "note": "(as typical treatments, e.g. Regaine, haven’t worked for me)",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "greasy treatments",
+                                "text": "Less greasy treatments",
+                                "score": 0,
+                                "nullifying": false
+                            },
+                            {
+                                "value": "none",
+                                "text": "None of the above",
+                                "score": 0,
+                                "nullifying": false
+                            }
+                        ],
+                        "defaultAnswer": [],
+                        "hasAnswered": false,
+                        "required": true,
+                        "productExcludeCondition": [
+                            {
+                                "maximise results": [
+                                    "minoxidil_topical_5",
+                                    "bundle_finasteride_oral_minoxidil_topical_5",
+                                    "PLAN-7"
+                                ],
+                                "hair texture": [
+                                    "minoxidil_topical_5",
+                                    "bundle_finasteride_oral_minoxidil_topical_5",
+                                    "PLAN-7"
+                                ],
+                                "novel treatments": [
+                                    "minoxidil_topical_5",
+                                    "bundle_finasteride_oral_minoxidil_topical_5",
+                                    "PLAN-7"
+                                ],
+                                "side effects": [
+                                    "minoxidil_topical_5",
+                                    "bundle_finasteride_oral_minoxidil_topical_5",
+                                    "PLAN-7"
+                                ],
+                                "greasy treatments": [
+                                    "minoxidil_topical_5",
+                                    "bundle_finasteride_oral_minoxidil_topical_5",
+                                    "PLAN-7"
+                                ]
+                            }
+                        ],
+                        "options": [
+                            {
+                                "text": "Maximising my results",
+                                "value": "maximise results"
+                            },
+                            {
+                                "text": "Minimising side-effect risks",
+                                "value": "side effects"
+                            },
+                            {
+                                "text": "Better hair texture",
+                                "value": "hair texture"
+                            },
+                            {
+                                "note": "(as typical treatments, e.g. Regaine, haven’t worked for me)",
+                                "text": "Novel treatments",
+                                "value": "novel treatments"
+                            },
+                            {
+                                "text": "Less greasy treatments",
+                                "value": "greasy treatments"
+                            },
+                            {
+                                "text": "None of the above",
+                                "value": "none"
+                            }
+                        ],
+                        "attributes": [],
+                        "stepIndex": 12
+                    }
+                ]
+            },
+            {
+                "number": 373,
+                "name": "Hair loss consultation - lastly consent",
+                "enabled": true,
+                "animations": {
+                    "outro": [
+                        {
+                            "txt": "Congratulations! You're suitable for hair loss treatment",
+                            "timeout": 3000
+                        },
+                        {
+                            "txt": "We're creating your personalised recommendation",
+                            "timeout": 3000
+                        },
+                        {
+                            "txt": "We've already helped over 200,000 customers with their wellbeing",
+                            "timeout": 3000
+                        }
+                    ],
+                    "imageTtl": "Earim Chaudry, Medical director"
+                },
+                "questions": [
+                    {
+                        "id": "820",
+                        "question": "Lastly, do you agree and consent to the following?\n\n<ul>\n<li>I am male, between 18 and 65 years old and live in the UK.</li>\n<li>I will be the sole user of any medication offered to me through this service.</li>\n<li>All answers are provided by me and will be completely truthful</li>\n<li>I am aware that minoxidil 10% spray, minoxidil spray with topical finasteride, and oral minoxidil are prescribed as <a href=\"https://www.manual.co/pages/unlicensed-and-off-label-medicine\" title=\"Off label and unlicensed\">unlicensed products</a></li>\n</ul>",
+                        "type": "choice",
+                        "answers": [
+                            {
+                                "value": "true",
+                                "text": "Yes",
+                                "score": 0,
+                                "nullifying": false
+                            }
+                        ],
+                        "defaultAnswer": "",
+                        "hasAnswered": false,
+                        "required": true,
+                        "options": [
+                            {
+                                "text": "Yes",
+                                "value": "true"
+                            }
+                        ],
+                        "attributes": [],
+                        "isLastStep": true,
+                        "stepIndex": 13
+                    }
+                ]
+            }
+        ],
+        "attributes": [
+            {
+                "code": "contentFromAnswers",
+                "name": "Get Content Based on Questionnaire Answers",
+                "value": {
+                    "goals": {
+                        "var": [
+                            "780"
+                        ]
+                    },
+                    "type_of_hl": {
+                        "var": [
+                            "779"
+                        ]
+                    },
+                    "product_preference": {
+                        "var": [
+                            "819"
+                        ]
+                    },
+                    "whatsImportant": {
+                        "merge": [
+                            {
+                                "if": [
+                                    {
+                                        "in": [
+                                            true,
+                                            {
+                                                "var": "711"
+                                            }
+                                        ]
+                                    },
+                                    [
+                                        "Scalp friendly options"
+                                    ],
+                                    []
+                                ]
+                            },
+                            {
+                                "if": [
+                                    {
+                                        "in": [
+                                            "once daily",
+                                            {
+                                                "var": "712"
+                                            }
+                                        ]
+                                    },
+                                    [
+                                        "Once-daily application"
+                                    ],
+                                    []
+                                ]
+                            },
+                            {
+                                "merge": [
+                                    {
+                                        "if": [
+                                            {
+                                                "in": [
+                                                    "maximise results",
+                                                    {
+                                                        "var": "728"
+                                                    }
+                                                ]
+                                            },
+                                            [
+                                                "Maximising results"
+                                            ],
+                                            []
+                                        ]
+                                    },
+                                    {
+                                        "if": [
+                                            {
+                                                "in": [
+                                                    "side effects",
+                                                    {
+                                                        "var": "728"
+                                                    }
+                                                ]
+                                            },
+                                            [
+                                                "Minimising side-effect risks"
+                                            ],
+                                            []
+                                        ]
+                                    },
+                                    {
+                                        "if": [
+                                            {
+                                                "in": [
+                                                    "hair texture",
+                                                    {
+                                                        "var": "728"
+                                                    }
+                                                ]
+                                            },
+                                            [
+                                                "Better hair texture"
+                                            ],
+                                            []
+                                        ]
+                                    },
+                                    {
+                                        "if": [
+                                            {
+                                                "in": [
+                                                    "novel treatments",
+                                                    {
+                                                        "var": "728"
+                                                    }
+                                                ]
+                                            },
+                                            [
+                                                "Novel treatments"
+                                            ],
+                                            []
+                                        ]
+                                    },
+                                    {
+                                        "if": [
+                                            {
+                                                "in": [
+                                                    "greasy treatments",
+                                                    {
+                                                        "var": "728"
+                                                    }
+                                                ]
+                                            },
+                                            [
+                                                "Less greasy treatments"
+                                            ],
+                                            []
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "position": 1
+            },
+            {
+                "code": "product_choice_details",
+                "name": "Product Choice Details",
+                "value": [
+                    {
+                        "tag": "Most Effective",
+                        "note": "Effective in over 9/10 men",
+                        "text": "Finasteride & Minoxidil",
+                        "image": "https://cdn.manual.co/product_cart_photos/hair/AIO-Capsule_new_img.png",
+                        "value": "finasteride and minoxidil",
+                        "description": "Finasteride & Minoxidil Combination"
+                    },
+                    {
+                        "note": "Effective in over 8/10 men",
+                        "text": "Finasteride only",
+                        "image": "https://cdn.manual.co/category_attributes/hair_loss/product_carousel/finasteride_product_image.jpg",
+                        "value": "finasteride_only"
+                    },
+                    {
+                        "note": "Effective in over 7/10 men",
+                        "text": "Minoxidil only",
+                        "image": "https://cdn.manual.co/category_attributes/hair_loss/product_carousel/minoxidil_product_image.jpg",
+                        "value": "minoxidil_only"
+                    }
+                ],
+                "position": 3
+            },
+            {
+                "code": "formatPageSubtitle",
+                "name": "Format page subtitle",
+                "value": {
+                    "minoxidil-hair-loss-plan": {
+                        "text": "Perfect for enhanced hair growth"
+                    },
+                    "complete-hair-loss-plan": {
+                        "heading": "Finasteride & Minoxidil Combined",
+                        "text": "Combining the two most effective ingredients for hair loss, Finasteride & Minoxidil, into easy-to-use treatments."
+                    },
+                    "all-in-one-dht": {
+                        "heading": "DHT Blocker and Minoxidil Combined",
+                        "text": "Combining the two most effective ingredients for hair loss, DHT Blockers & Minoxidil, into easy-to-use treatments."
+                    },
+                    "dht-blockert": {
+                        "heading": "DHT Blocker Plans",
+                        "text": "Perfect for enhanced hair growth and prevention"
+                    }
+                },
+                "position": 5
+            },
+            {
+                "code": "plan_product_recommendations",
+                "name": "Plan Product Recommendations (Product recommendations list based on the preferred user's product plan)",
+                "value": {
+                    "dht-blocker": {
+                        "name": "DHT Blocker",
+                        "products": [
+                            {
+                                "code": "dutasteride_oral",
+                                "weight": 70
+                            },
+                            {
+                                "code": "finasteride_oral",
+                                "weight": 30
+                            }
+                        ]
+                    }
+                },
+                "position": 7
+            }
+        ],
+        "products": [
+            "finasteride_oral_minoxidil_oral_biotin",
+            "finasteride_topical_minoxidil_topical_10",
+            "finasteride_oral",
+            "minoxidil_oral",
+            "minoxidil_topical_10",
+            "POWER-SHAMPOO",
+            "bundle_finasteride_oral_minoxidil_topical_10",
+            "bundle_finasteride_oral_minoxidil_oral",
+            "dutasteride_oral"
+        ]
+    },
+    "answers": null,
+    "changedAnswers": null,
+    "eligibleProducts": [
+        "finasteride_oral_minoxidil_oral_biotin",
+        "finasteride_topical_minoxidil_topical_10",
+        "finasteride_oral",
+        "minoxidil_oral",
+        "minoxidil_topical_10",
+        "POWER-SHAMPOO",
+        "bundle_finasteride_oral_minoxidil_topical_10",
+        "bundle_finasteride_oral_minoxidil_oral",
+        "dutasteride_oral"
+    ],
+    "inEligibleProducts": {},
+    "questionsList": [
+        {
+            "id": "813",
+            "question": "What results are you looking for?",
+            "type": "choice",
+            "answers": [
+                {
+                    "value": "Regrow my hair",
+                    "text": "Regrow my hair",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "Prevent further hair loss",
+                    "text": "Prevent further hair loss",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "Regrowth and prevention",
+                    "text": "Regrowth and prevention",
+                    "score": 0,
+                    "nullifying": false
+                }
+            ],
+            "defaultAnswer": "",
+            "hasAnswered": false,
+            "required": true,
+            "tags": [
+                "hl_hide_for_atc"
+            ],
+            "options": [
+                {
+                    "text": "Regrow my hair",
+                    "value": "Regrow my hair"
+                },
+                {
+                    "text": "Prevent further hair loss",
+                    "value": "Prevent further hair loss"
+                },
+                {
+                    "text": "Regrowth and prevention",
+                    "value": "Regrowth and prevention"
+                }
+            ],
+            "attributes": [],
+            "stepIndex": 0
+        },
+        {
+            "id": "783",
+            "question": "How old are you?",
+            "type": "choice",
+            "answers": [
+                {
+                    "value": "<20",
+                    "text": "Under 20",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "20s",
+                    "text": "20s",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "30s",
+                    "text": "30s",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "40s",
+                    "text": "40s",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "50s",
+                    "text": "50s",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "60+",
+                    "text": "60+",
+                    "score": 0,
+                    "nullifying": false
+                }
+            ],
+            "defaultAnswer": "",
+            "hasAnswered": false,
+            "required": true,
+            "tags": [
+                "hl_hide_for_atc"
+            ],
+            "options": [
+                {
+                    "text": "Under 20",
+                    "value": "<20"
+                },
+                {
+                    "text": "20s",
+                    "value": "20s"
+                },
+                {
+                    "text": "30s",
+                    "value": "30s"
+                },
+                {
+                    "text": "40s",
+                    "value": "40s"
+                },
+                {
+                    "text": "50s",
+                    "value": "50s"
+                },
+                {
+                    "text": "60+",
+                    "value": "60+"
+                }
+            ],
+            "attributes": [],
+            "stepIndex": 1
+        },
+        {
+            "id": "784",
+            "question": "How do you expect hair loss treatment to impact your life?",
+            "type": "choice",
+            "answers": [
+                {
+                    "value": "Increase my confidence",
+                    "text": "Increase my confidence",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "Feel less anxious",
+                    "text": "Feel less anxious",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "Improve my mood",
+                    "text": "Improve my mood",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "Better success in relationships",
+                    "text": "Better success in relationships",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "Reduce stress",
+                    "text": "Reduce stress",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "I'm not sure",
+                    "text": "I'm not sure",
+                    "score": 0,
+                    "nullifying": false
+                }
+            ],
+            "defaultAnswer": "",
+            "hasAnswered": false,
+            "required": true,
+            "tags": [
+                "hl_hide_for_atc"
+            ],
+            "options": [
+                {
+                    "text": "Increase my confidence",
+                    "value": "Increase my confidence"
+                },
+                {
+                    "text": "Feel less anxious",
+                    "value": "Feel less anxious"
+                },
+                {
+                    "text": "Improve my mood",
+                    "value": "Improve my mood"
+                },
+                {
+                    "text": "Better success in relationships",
+                    "value": "Better success in relationships"
+                },
+                {
+                    "text": "Reduce stress",
+                    "value": "Reduce stress"
+                },
+                {
+                    "text": "I'm not sure",
+                    "value": "I'm not sure"
+                }
+            ],
+            "attributes": [],
+            "stepIndex": 2
+        },
+        {
+            "id": "827",
+            "question": "Which treatment plan \nwould you prefer?",
+            "note": "Final treatment plans are shared decisions determined with your clinician after this online assessment. Always read the leaflet and treatment plan.",
+            "type": "productchoicetype",
+            "defaultAnswer": "",
+            "hasAnswered": false,
+            "required": false,
+            "productVariantIncludeCondition": [
+                {
+                    "finasteride_only": [
+                        "finasteride_only"
+                    ]
+                },
+                {
+                    "minoxidil_only": [
+                        "minoxidil_only"
+                    ]
+                }
+            ],
+            "tags": [
+                "hl_product_choice_carousel",
+                "hl_hide_for_atc"
+            ],
+            "options": [
+                {
+                    "code": "bundle_finasteride_oral_minoxidil_oral",
+                    "text": "bundle_finasteride_oral_minoxidil_oral",
+                    "value": "bundle_finasteride_oral_minoxidil_oral"
+                },
+                {
+                    "code": "finasteride_oral_minoxidil_oral_biotin",
+                    "text": "finasteride_oral_minoxidil_oral_biotin",
+                    "value": "finasteride_oral_minoxidil_oral_biotin"
+                },
+                {
+                    "code": "bundle_finasteride_oral_minoxidil_topical_5",
+                    "text": "bundle_finasteride_oral_minoxidil_topical_5",
+                    "value": "bundle_finasteride_oral_minoxidil_topical_5"
+                },
+                {
+                    "code": "finasteride_oral",
+                    "text": "finasteride_oral",
+                    "value": "finasteride_oral"
+                },
+                {
+                    "code": "minoxidil_topical_5",
+                    "text": "minoxidil_topical_5",
+                    "value": "minoxidil_topical_5"
+                },
+                {
+                    "code": "minoxidil_oral",
+                    "text": "minoxidil_oral",
+                    "value": "minoxidil_oral"
+                },
+                {
+                    "code": "PLANOLD-2-M-N",
+                    "text": "PLANOLD-2-M-N",
+                    "value": "PLANOLD-2-M-N"
+                },
+                {
+                    "code": "PLAN-1-M-N",
+                    "text": "PLAN-1-M-N",
+                    "value": "PLAN-1-M-N"
+                },
+                {
+                    "code": "PLAN-7",
+                    "text": "PLAN-7",
+                    "value": "PLAN-7"
+                }
+            ],
+            "attributes": [],
+            "stepIndex": 3
+        },
+        {
+            "id": "650",
+            "question": "Which image best matches your hair loss?",
+            "type": "imagechoice",
+            "answers": [
+                {
+                    "value": "Temples",
+                    "text": "<img alt=\"Temples\" src=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/temples-hairloss.png\" srcset=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/temples-hairloss%402x.png 2x\" title=\"Temples\"/>",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "Temples & Crown",
+                    "text": "<img alt=\"Temples & Crown\" src=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/templescrown-hairloss.png\" srcset=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/templescrown-hairloss%402x.png 2x\" title=\"Temples & Crown\"/>",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "Moderate",
+                    "text": "<img alt=\"Moderate\" src=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/moderate-hairloss.png\" srcset=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/moderate-hairloss%402x.png 2x\" title=\"Moderate\"/>",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "Extensive",
+                    "text": "<img alt=\"Extensive\" src=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/extensive-hairloss.png\" srcset=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/extensive-hairloss%402x.png 2x\" title=\"Extensive\"/>",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "Patchy",
+                    "text": "<img alt=\"Patchy\" src=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/patchy-hairloss.png\" srcset=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/patchy-hairloss%402x.png 2x\" title=\"Patchy\"/>",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "Complete",
+                    "text": "<img alt=\"Complete\" src=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/complete-hairloss.png\" srcset=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/complete-hairloss%402x.png 2x\" title=\"Complete\"/>",
+                    "score": 0,
+                    "nullifying": false
+                }
+            ],
+            "defaultAnswer": "",
+            "hasAnswered": false,
+            "required": true,
+            "rejectCondition": "\"Patchy\"|||\"Complete\"",
+            "options": [
+                {
+                    "text": "<img alt=\"Temples\" src=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/temples-hairloss.png\" srcset=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/temples-hairloss%402x.png 2x\" title=\"Temples\"/>",
+                    "value": "Temples"
+                },
+                {
+                    "text": "<img alt=\"Temples & Crown\" src=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/templescrown-hairloss.png\" srcset=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/templescrown-hairloss%402x.png 2x\" title=\"Temples & Crown\"/>",
+                    "value": "Temples & Crown"
+                },
+                {
+                    "text": "<img alt=\"Moderate\" src=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/moderate-hairloss.png\" srcset=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/moderate-hairloss%402x.png 2x\" title=\"Moderate\"/>",
+                    "value": "Moderate"
+                },
+                {
+                    "text": "<img alt=\"Extensive\" src=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/extensive-hairloss.png\" srcset=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/extensive-hairloss%402x.png 2x\" title=\"Extensive\"/>",
+                    "value": "Extensive"
+                },
+                {
+                    "text": "<img alt=\"Patchy\" src=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/patchy-hairloss.png\" srcset=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/patchy-hairloss%402x.png 2x\" title=\"Patchy\"/>",
+                    "value": "Patchy"
+                },
+                {
+                    "text": "<img alt=\"Complete\" src=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/complete-hairloss.png\" srcset=\"https://s3-eu-west-1.amazonaws.com/manualco/questions/complete-hairloss%402x.png 2x\" title=\"Complete\"/>",
+                    "value": "Complete"
+                }
+            ],
+            "attributes": [],
+            "stepIndex": 4
+        },
+        {
+            "id": "651",
+            "question": "Do you have any scalp problems?",
+            "type": "choice",
+            "answers": [
+                {
+                    "value": "true",
+                    "text": "Yes",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "false",
+                    "text": "No",
+                    "score": 0,
+                    "nullifying": false
+                }
+            ],
+            "defaultAnswer": "",
+            "hasAnswered": false,
+            "required": true,
+            "idealAnswer": "false",
+            "options": [
+                {
+                    "text": "Yes",
+                    "value": "true"
+                },
+                {
+                    "text": "No",
+                    "value": "false"
+                }
+            ],
+            "attributes": [],
+            "stepIndex": 5
+        },
+        {
+            "id": "652",
+            "question": "Please be more specific.",
+            "type": "choice",
+            "parentQuestion": "651",
+            "parentQuestionCondition": "true",
+            "answers": [
+                {
+                    "value": "soreness/redness",
+                    "text": "Sudden Soreness/Redness",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "dandruff",
+                    "text": "Dandruff",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "psoriasis",
+                    "text": "Psoriasis",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "sunburn",
+                    "text": "Sunburn",
+                    "score": 0,
+                    "nullifying": false
+                }
+            ],
+            "defaultAnswer": "",
+            "hasAnswered": false,
+            "required": true,
+            "productExcludeCondition": [
+                {
+                    "dandruff": [
+                        "minoxidil_topical_5",
+                        "bundle_finasteride_oral_minoxidil_topical_5"
+                    ],
+                    "psoriasis": [
+                        "minoxidil_topical_5",
+                        "minoxidil_topical_10",
+                        "minoxidil_topical_10",
+                        "bundle_finasteride_oral_minoxidil_topical_5",
+                        "bundle_finasteride_oral_minoxidil_topical_10",
+                        "finasteride_topical_minoxidil_topical_10"
+                    ],
+                    "sunburn": [
+                        "minoxidil_topical_5",
+                        "minoxidil_topical_10",
+                        "minoxidil_topical_10",
+                        "bundle_finasteride_oral_minoxidil_topical_5",
+                        "bundle_finasteride_oral_minoxidil_topical_10",
+                        "finasteride_topical_minoxidil_topical_10"
+                    ]
+                }
+            ],
+            "options": [
+                {
+                    "text": "Sudden Soreness/Redness",
+                    "value": "soreness/redness"
+                },
+                {
+                    "text": "Dandruff",
+                    "value": "dandruff"
+                },
+                {
+                    "text": "Psoriasis",
+                    "value": "psoriasis"
+                },
+                {
+                    "text": "Sunburn",
+                    "value": "sunburn"
+                }
+            ],
+            "attributes": [],
+            "stepIndex": 5
+        },
+        {
+            "id": "653",
+            "question": "Have you seen a clinician about the soreness/redness in order to get a diagnosis and/or received treatment?",
+            "type": "choice",
+            "parentQuestion": "652",
+            "parentQuestionCondition": "soreness/redness",
+            "answers": [
+                {
+                    "value": "true",
+                    "text": "Yes",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "false",
+                    "text": "No",
+                    "score": 0,
+                    "nullifying": false
+                }
+            ],
+            "defaultAnswer": "",
+            "hasAnswered": false,
+            "required": true,
+            "rejectReasoning": "We cannot recommend you prescription hair loss treatment as it may not be suitable for you. We would advise seeing your GP for a face to face consultation, to further assess the nature of this soreness/redness on your scalp.",
+            "productExcludeCondition": [
+                {
+                    "true": [
+                        "minoxidil_topical_5",
+                        "minoxidil_topical_10",
+                        "minoxidil_topical_10",
+                        "bundle_finasteride_oral_minoxidil_topical_5",
+                        "bundle_finasteride_oral_minoxidil_topical_10",
+                        "finasteride_topical_minoxidil_topical_10"
+                    ]
+                }
+            ],
+            "options": [
+                {
+                    "text": "Yes",
+                    "value": "true"
+                },
+                {
+                    "text": "No",
+                    "value": "false"
+                }
+            ],
+            "attributes": [],
+            "stepIndex": 5
+        },
+        {
+            "id": "654",
+            "question": "Have you used Minoxidil, Regaine, Finasteride, or Propecia for at least 12 months consistently?",
+            "type": "choice",
+            "answers": [
+                {
+                    "value": "true",
+                    "text": "Yes",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "false",
+                    "text": "No",
+                    "score": 0,
+                    "nullifying": false
+                }
+            ],
+            "defaultAnswer": "",
+            "hasAnswered": false,
+            "required": true,
+            "idealAnswer": "false",
+            "options": [
+                {
+                    "text": "Yes",
+                    "value": "true"
+                },
+                {
+                    "text": "No",
+                    "value": "false"
+                }
+            ],
+            "attributes": [],
+            "stepIndex": 6
+        },
+        {
+            "id": "655",
+            "question": "Was Minoxidil or Regaine effective?",
+            "type": "choice",
+            "parentQuestion": "654",
+            "parentQuestionCondition": "true",
+            "answers": [
+                {
+                    "value": "true",
+                    "text": "Yes",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "false",
+                    "text": "No",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "na",
+                    "text": "I have not used",
+                    "score": 0,
+                    "nullifying": false
+                }
+            ],
+            "defaultAnswer": "",
+            "hasAnswered": false,
+            "required": true,
+            "productExcludeCondition": [
+                {
+                    "false": [
+                        "minoxidil_topical_5",
+                        "bundle_finasteride_oral_minoxidil_topical_5"
+                    ]
+                }
+            ],
+            "options": [
+                {
+                    "text": "Yes",
+                    "value": "true"
+                },
+                {
+                    "text": "No",
+                    "value": "false"
+                },
+                {
+                    "text": "I have not used",
+                    "value": "na"
+                }
+            ],
+            "attributes": [],
+            "stepIndex": 6
+        },
+        {
+            "id": "656",
+            "question": "Was Finasteride or Propecia effective?",
+            "type": "choice",
+            "parentQuestion": "654",
+            "parentQuestionCondition": "true",
+            "answers": [
+                {
+                    "value": "true",
+                    "text": "Yes",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "false",
+                    "text": "No",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "na",
+                    "text": "I have not used",
+                    "score": 0,
+                    "nullifying": false
+                }
+            ],
+            "defaultAnswer": "",
+            "hasAnswered": false,
+            "required": true,
+            "productExcludeCondition": [
+                {
+                    "false": [
+                        "finasteride_oral"
+                    ]
+                }
+            ],
+            "options": [
+                {
+                    "text": "Yes",
+                    "value": "true"
+                },
+                {
+                    "text": "No",
+                    "value": "false"
+                },
+                {
+                    "text": "I have not used",
+                    "value": "na"
+                }
+            ],
+            "attributes": [],
+            "stepIndex": 6
+        },
+        {
+            "id": "657",
+            "question": "Are any of the following true?\n\n<ul>\n<li>I have previously been diagnosed with breast cancer, prostate cancer, or I am currently undergoing PSA (prostate monitoring).</li>\n<li>I have uncontrolled low or high blood pressure.</li>\n<li>I am experiencing, or have previously experienced, depression, anxiety or panic disorders.</li>\n</ul>",
+            "type": "choice",
+            "answers": [
+                {
+                    "value": "true",
+                    "text": "Yes",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "false",
+                    "text": "No",
+                    "score": 0,
+                    "nullifying": false
+                }
+            ],
+            "defaultAnswer": "",
+            "hasAnswered": false,
+            "required": true,
+            "idealAnswer": "false",
+            "options": [
+                {
+                    "text": "Yes",
+                    "value": "true"
+                },
+                {
+                    "text": "No",
+                    "value": "false"
+                }
+            ],
+            "attributes": [],
+            "stepIndex": 7
+        },
+        {
+            "id": "658",
+            "question": "Have you previously been diagnosed with breast cancer, prostate cancer or are you currently undergoing PSA (prostate monitoring)?",
+            "type": "choice",
+            "parentQuestion": "657",
+            "parentQuestionCondition": "true",
+            "answers": [
+                {
+                    "value": "true",
+                    "text": "Yes",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "false",
+                    "text": "No",
+                    "score": 0,
+                    "nullifying": false
+                }
+            ],
+            "defaultAnswer": "",
+            "hasAnswered": false,
+            "required": true,
+            "idealAnswer": "false",
+            "productExcludeCondition": [
+                {
+                    "true": [
+                        "finasteride_oral",
+                        "bundle_finasteride_oral_minoxidil_topical_5",
+                        "bundle_finasteride_oral_minoxidil_topical_10",
+                        "finasteride_topical_minoxidil_topical_10",
+                        "finasteride_oral_minoxidil_oral_biotin"
+                    ]
+                }
+            ],
+            "options": [
+                {
+                    "text": "Yes",
+                    "value": "true"
+                },
+                {
+                    "text": "No",
+                    "value": "false"
+                }
+            ],
+            "attributes": [],
+            "stepIndex": 7
+        },
+        {
+            "id": "659",
+            "question": "Do you have uncontrolled low or high blood pressure?",
+            "type": "choice",
+            "parentQuestion": "657",
+            "parentQuestionCondition": "true",
+            "answers": [
+                {
+                    "value": "true",
+                    "text": "Yes",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "false",
+                    "text": "No",
+                    "score": 0,
+                    "nullifying": false
+                }
+            ],
+            "defaultAnswer": "",
+            "hasAnswered": false,
+            "required": true,
+            "idealAnswer": "false",
+            "productExcludeCondition": [
+                {
+                    "true": [
+                        "minoxidil_topical_5",
+                        "minoxidil_oral",
+                        "bundle_finasteride_oral_minoxidil_topical_5",
+                        "bundle_finasteride_oral_minoxidil_topical_10",
+                        "finasteride_topical_minoxidil_topical_10",
+                        "finasteride_oral_minoxidil_oral_biotin"
+                    ]
+                }
+            ],
+            "options": [
+                {
+                    "text": "Yes",
+                    "value": "true"
+                },
+                {
+                    "text": "No",
+                    "value": "false"
+                }
+            ],
+            "attributes": [],
+            "stepIndex": 7
+        },
+        {
+            "id": "660",
+            "question": "Are you experiencing, or have you ever experienced, depression, anxiety or panic disorders?",
+            "type": "choice",
+            "parentQuestion": "657",
+            "parentQuestionCondition": "true",
+            "answers": [
+                {
+                    "value": "true",
+                    "text": "Yes",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "false",
+                    "text": "No",
+                    "score": 0,
+                    "nullifying": false
+                }
+            ],
+            "defaultAnswer": "",
+            "hasAnswered": false,
+            "required": true,
+            "options": [
+                {
+                    "text": "Yes",
+                    "value": "true"
+                },
+                {
+                    "text": "No",
+                    "value": "false"
+                }
+            ],
+            "attributes": [],
+            "stepIndex": 7
+        },
+        {
+            "id": "661",
+            "question": "There are occasional reports of depression and even suicidal thoughts with Finasteride (Propecia). If you are currently stable, and happy to stop this treatment immediately and consult a doctor if this occurs then click to accept you have understood the above.",
+            "type": "choice",
+            "parentQuestion": "660",
+            "parentQuestionCondition": "true",
+            "answers": [
+                {
+                    "value": "true",
+                    "text": "I understand",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "false",
+                    "text": "I am not currently stable or don't want to proceed with Finasteride",
+                    "score": 0,
+                    "nullifying": false
+                }
+            ],
+            "defaultAnswer": "",
+            "hasAnswered": false,
+            "required": true,
+            "idealAnswer": "true",
+            "productExcludeCondition": [
+                {
+                    "false": [
+                        "finasteride_oral",
+                        "bundle_finasteride_oral_minoxidil_topical_5",
+                        "bundle_finasteride_oral_minoxidil_topical_10",
+                        "finasteride_topical_minoxidil_topical_10",
+                        "finasteride_oral_minoxidil_oral_biotin"
+                    ]
+                }
+            ],
+            "options": [
+                {
+                    "text": "I understand",
+                    "value": "true"
+                },
+                {
+                    "text": "I am not currently stable or don't want to proceed with Finasteride",
+                    "value": "false"
+                }
+            ],
+            "attributes": [],
+            "stepIndex": 7
+        },
+        {
+            "id": "706",
+            "question": "Do you have any of the following problems?\n\n<ul>\n<li>Significant or Chronic Kidney Disease</li>\n<li>Phaeochromocytoma</li>\n<li>Heart attack, stroke, or mini-stroke within the last 6 months</li>\n<li>Chest pain symptoms or any heart rhythm issues</li>\n<li>Heart valve problems</li>\n<li>Disease of the heart muscles</li>\n<li>Get breathless or have chest pain with light exertion, such as walking briskly for 20 minutes or climbing two flights of stairs</li>\n</ul>",
+            "type": "choice",
+            "answers": [
+                {
+                    "value": "true",
+                    "text": "Yes",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "false",
+                    "text": "No",
+                    "score": 0,
+                    "nullifying": false
+                }
+            ],
+            "defaultAnswer": "",
+            "hasAnswered": false,
+            "required": true,
+            "idealAnswer": "false",
+            "productExcludeCondition": [
+                {
+                    "true": [
+                        "minoxidil_oral",
+                        "finasteride_oral_minoxidil_oral_biotin",
+                        "bundle_finasteride_oral_minoxidil_oral",
+                        "bundle_finasteride_oral_minoxidil_topical_10",
+                        "bundle_finasteride_oral_minoxidil_topical_5",
+                        "finasteride_topical_minoxidil_topical_10",
+                        "minoxidil_topical_10"
+                    ]
+                }
+            ],
+            "options": [
+                {
+                    "text": "Yes",
+                    "value": "true"
+                },
+                {
+                    "text": "No",
+                    "value": "false"
+                }
+            ],
+            "attributes": [],
+            "stepIndex": 8
+        },
+        {
+            "id": "707",
+            "question": "Do you have any allergies (e.g. Lactose, Minoxidil, Finasteride or Dutasteride)?",
+            "type": "choice",
+            "answers": [
+                {
+                    "value": "true",
+                    "text": "Yes",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "false",
+                    "text": "No",
+                    "score": 0,
+                    "nullifying": false
+                }
+            ],
+            "defaultAnswer": "",
+            "hasAnswered": false,
+            "required": true,
+            "idealAnswer": "false",
+            "options": [
+                {
+                    "text": "Yes",
+                    "value": "true"
+                },
+                {
+                    "text": "No",
+                    "value": "false"
+                }
+            ],
+            "attributes": [],
+            "stepIndex": 9
+        },
+        {
+            "id": "708",
+            "question": "Are you allergic to any of the following?",
+            "note": "(Select all that apply)",
+            "type": "multichoice",
+            "parentQuestion": "707",
+            "parentQuestionCondition": "true",
+            "answers": [
+                {
+                    "value": "lactose",
+                    "text": "Lactose",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "minoxidil",
+                    "text": "Minoxidil",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "finasteride",
+                    "text": "Finasteride",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "dutasteride",
+                    "text": "Dutasteride",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "other",
+                    "text": "Something else",
+                    "score": 0,
+                    "nullifying": false
+                }
+            ],
+            "defaultAnswer": [],
+            "hasAnswered": false,
+            "required": true,
+            "productExcludeCondition": [
+                {
+                    "finasteride": [
+                        "finasteride_oral",
+                        "bundle_finasteride_oral_minoxidil_topical_5",
+                        "bundle_finasteride_oral_minoxidil_topical_10",
+                        "finasteride_topical_minoxidil_topical_10",
+                        "finasteride_oral_minoxidil_oral_biotin",
+                        "bundle_finasteride_oral_minoxidil_oral"
+                    ],
+                    "minoxidil": [
+                        "minoxidil_topical_5",
+                        "minoxidil_topical_10",
+                        "minoxidil_oral",
+                        "bundle_finasteride_oral_minoxidil_topical_5",
+                        "bundle_finasteride_oral_minoxidil_topical_10",
+                        "finasteride_topical_minoxidil_topical_10",
+                        "finasteride_oral_minoxidil_oral_biotin",
+                        "bundle_finasteride_oral_minoxidil_oral"
+                    ],
+                    "dutasteride": [
+                        "dutasteride_oral",
+                        "dutasteride_oral_minoxidil_oral_biotin"
+                    ]
+                }
+            ],
+            "options": [
+                {
+                    "text": "Lactose",
+                    "value": "lactose"
+                },
+                {
+                    "text": "Minoxidil",
+                    "value": "minoxidil"
+                },
+                {
+                    "text": "Finasteride",
+                    "value": "finasteride"
+                },
+                {
+                    "text": "Dutasteride",
+                    "value": "dutasteride"
+                },
+                {
+                    "text": "Something else",
+                    "value": "other"
+                }
+            ],
+            "attributes": [],
+            "stepIndex": 9
+        },
+        {
+            "id": "709",
+            "question": "If we recommend a tablet medication in your plan it can contain very small amounts of lactose. If you have previously taken most tablet formulations without causing any symptoms then it is unlikely that you will get undesirable effects from the lactose within our tablets.",
+            "type": "choice",
+            "parentQuestion": "708",
+            "parentQuestionCondition": "lactose",
+            "answers": [
+                {
+                    "value": "true",
+                    "text": "I am happy to proceed to being assessed for prescription",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "false",
+                    "text": "I can't tolerate even small amounts of lactose",
+                    "score": 0,
+                    "nullifying": false
+                }
+            ],
+            "defaultAnswer": "",
+            "hasAnswered": false,
+            "required": true,
+            "idealAnswer": "true",
+            "productExcludeCondition": [
+                {
+                    "false": [
+                        "finasteride_oral",
+                        "bundle_finasteride_oral_minoxidil_topical_5",
+                        "bundle_finasteride_oral_minoxidil_topical_10",
+                        "finasteride_topical_minoxidil_topical_10",
+                        "bundle_finasteride_oral_minoxidil_oral"
+                    ]
+                }
+            ],
+            "options": [
+                {
+                    "text": "I am happy to proceed to being assessed for prescription",
+                    "value": "true"
+                },
+                {
+                    "text": "I can't tolerate even small amounts of lactose",
+                    "value": "false"
+                }
+            ],
+            "attributes": [],
+            "stepIndex": 9
+        },
+        {
+            "id": "711",
+            "question": "Is your scalp susceptible to dryness, irritation or dandruff?",
+            "type": "choice",
+            "answers": [
+                {
+                    "value": "false",
+                    "text": "No - I don’t want any scalp gentle options",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "true",
+                    "text": "Yes - I want more scalp friendly plans",
+                    "score": 0,
+                    "nullifying": false
+                }
+            ],
+            "defaultAnswer": "",
+            "hasAnswered": false,
+            "required": true,
+            "productExcludeCondition": [
+                {
+                    "true": [
+                        "minoxidil_topical_5",
+                        "bundle_finasteride_oral_minoxidil_topical_5"
+                    ]
+                }
+            ],
+            "options": [
+                {
+                    "text": "No - I don’t want any scalp gentle options",
+                    "value": "false"
+                },
+                {
+                    "text": "Yes - I want more scalp friendly plans",
+                    "value": "true"
+                }
+            ],
+            "attributes": [],
+            "stepIndex": 10
+        },
+        {
+            "id": "712",
+            "question": "Which of the following would you need to be consistent with treatment?",
+            "note": "(Application refers to how often you need to use the treatment)",
+            "type": "choice",
+            "answers": [
+                {
+                    "value": "twice daily",
+                    "text": "Twice-daily application",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "once daily",
+                    "text": "Once-daily application",
+                    "score": 0,
+                    "nullifying": false
+                }
+            ],
+            "defaultAnswer": "",
+            "hasAnswered": false,
+            "required": true,
+            "productExcludeCondition": [
+                {
+                    "once daily": [
+                        "minoxidil_topical_5",
+                        "bundle_finasteride_oral_minoxidil_topical_5"
+                    ]
+                }
+            ],
+            "options": [
+                {
+                    "text": "Twice-daily application",
+                    "value": "twice daily"
+                },
+                {
+                    "text": "Once-daily application",
+                    "value": "once daily"
+                }
+            ],
+            "attributes": [],
+            "stepIndex": 11
+        },
+        {
+            "id": "728",
+            "question": "Which are important to you?",
+            "note": "Select all that apply",
+            "type": "multichoice",
+            "answers": [
+                {
+                    "value": "maximise results",
+                    "text": "Maximising my results",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "side effects",
+                    "text": "Minimising side-effect risks",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "hair texture",
+                    "text": "Better hair texture",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "novel treatments",
+                    "text": "Novel treatments",
+                    "note": "(as typical treatments, e.g. Regaine, haven’t worked for me)",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "greasy treatments",
+                    "text": "Less greasy treatments",
+                    "score": 0,
+                    "nullifying": false
+                },
+                {
+                    "value": "none",
+                    "text": "None of the above",
+                    "score": 0,
+                    "nullifying": false
+                }
+            ],
+            "defaultAnswer": [],
+            "hasAnswered": false,
+            "required": true,
+            "productExcludeCondition": [
+                {
+                    "maximise results": [
+                        "minoxidil_topical_5",
+                        "bundle_finasteride_oral_minoxidil_topical_5",
+                        "PLAN-7"
+                    ],
+                    "hair texture": [
+                        "minoxidil_topical_5",
+                        "bundle_finasteride_oral_minoxidil_topical_5",
+                        "PLAN-7"
+                    ],
+                    "novel treatments": [
+                        "minoxidil_topical_5",
+                        "bundle_finasteride_oral_minoxidil_topical_5",
+                        "PLAN-7"
+                    ],
+                    "side effects": [
+                        "minoxidil_topical_5",
+                        "bundle_finasteride_oral_minoxidil_topical_5",
+                        "PLAN-7"
+                    ],
+                    "greasy treatments": [
+                        "minoxidil_topical_5",
+                        "bundle_finasteride_oral_minoxidil_topical_5",
+                        "PLAN-7"
+                    ]
+                }
+            ],
+            "options": [
+                {
+                    "text": "Maximising my results",
+                    "value": "maximise results"
+                },
+                {
+                    "text": "Minimising side-effect risks",
+                    "value": "side effects"
+                },
+                {
+                    "text": "Better hair texture",
+                    "value": "hair texture"
+                },
+                {
+                    "note": "(as typical treatments, e.g. Regaine, haven’t worked for me)",
+                    "text": "Novel treatments",
+                    "value": "novel treatments"
+                },
+                {
+                    "text": "Less greasy treatments",
+                    "value": "greasy treatments"
+                },
+                {
+                    "text": "None of the above",
+                    "value": "none"
+                }
+            ],
+            "attributes": [],
+            "stepIndex": 12
+        },
+        {
+            "id": "820",
+            "question": "Lastly, do you agree and consent to the following?\n\n<ul>\n<li>I am male, between 18 and 65 years old and live in the UK.</li>\n<li>I will be the sole user of any medication offered to me through this service.</li>\n<li>All answers are provided by me and will be completely truthful</li>\n<li>I am aware that minoxidil 10% spray, minoxidil spray with topical finasteride, and oral minoxidil are prescribed as <a href=\"https://www.manual.co/pages/unlicensed-and-off-label-medicine\" title=\"Off label and unlicensed\">unlicensed products</a></li>\n</ul>",
+            "type": "choice",
+            "answers": [
+                {
+                    "value": "true",
+                    "text": "Yes",
+                    "score": 0,
+                    "nullifying": false
+                }
+            ],
+            "defaultAnswer": "",
+            "hasAnswered": false,
+            "required": true,
+            "options": [
+                {
+                    "text": "Yes",
+                    "value": "true"
+                }
+            ],
+            "attributes": [],
+            "isLastStep": true,
+            "stepIndex": 13
+        }
+    ],
+    "bmiValue": 0,
+    "weightAndHeight": null,
+    "userPreferredProduct": null
+}
