@@ -20,7 +20,7 @@ export const test = base.extend<MyFixtures>({
 
         page.goto = async (url: string, options?) => {
             if(url.includes("devel") && !isAuthenticated) {
-                page.getByLabel('VISITOR PASSWORD').fill("menofmanual")
+                page.getByLabel('VISITOR PASSWORD').fill(process.env.VISITOR_PASSWORD!);
                 page.getByRole("button", {name: "Log in"}).click();
                 isAuthenticated = true;
             }
